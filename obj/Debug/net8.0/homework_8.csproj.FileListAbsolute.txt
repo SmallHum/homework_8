@@ -1,0 +1,15 @@
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.GeneratedMSBuildEditorConfig.editorconfig
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.AssemblyInfoInputs.cache
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.AssemblyInfo.cs
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.csproj.CoreCompileInputs.cache
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.sourcelink.json
+/home/smallhum/CSHARP_BLIN/homework_8/bin/Debug/net8.0/homework_8
+/home/smallhum/CSHARP_BLIN/homework_8/bin/Debug/net8.0/homework_8.deps.json
+/home/smallhum/CSHARP_BLIN/homework_8/bin/Debug/net8.0/homework_8.runtimeconfig.json
+/home/smallhum/CSHARP_BLIN/homework_8/bin/Debug/net8.0/homework_8.dll
+/home/smallhum/CSHARP_BLIN/homework_8/bin/Debug/net8.0/homework_8.pdb
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.dll
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/refint/homework_8.dll
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.pdb
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/homework_8.genruntimeconfig.cache
+/home/smallhum/CSHARP_BLIN/homework_8/obj/Debug/net8.0/ref/homework_8.dll
