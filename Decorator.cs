@@ -15,6 +15,11 @@ public class Name
     {
         string result = "";
 
+        if (prefix.Count == 0 && postfix.Count == 0)
+        {
+            result = "JUST ";
+        }
+
         foreach (string prefix_string in prefix)
         {
             result += prefix_string + ' ';
@@ -391,20 +396,20 @@ public class GameService
     public static Random random = new Random();
 
     public static int decorators_count_min = 0;
-    public static int decorators_count_max = 3;
+    public static int decorators_count_max = 2;
 
     static List<string> funnyOrders = new List<string> {
         "HELLO CAN I GET UHHH....",
         "AIFDOFOABSBNNLKDKNLKFGKSDFFDS!!!!",
         "I MAY NOT NEED A BEVERAGE BUT...",
-        "I'M GAY",
+        "HI I'M GAY",
         "SORRY, I FORGOT WHAT I WANTED, BUT PLEASE HELP ME REMEMBER"
     };
 
     static List<string> funnyIncorrectReplies = new List<string> {
-        "NIGGA I WANTED {0}",
+        "N[???]A I WANTED {0}",
         "WHERE'S MY {0}?",
-        "YOU STUPID PIECE OF SHIT I WANTED {0}!!!!",
+        "YOU [???] PIECE OF [???] I WANTED {0}!!!!",
         "NO {0}. I'M SEWING YOU.",
         "SUBJECT RETURNED INCORRECT BEVERAGE. REQUESTED BEVERAGE WAS {0}. TESTING FAILED."
     };
@@ -424,7 +429,7 @@ public class GameService
     {
         ABeverage result = factory.pickRandomBeverageBase();
 
-        for (int i = 0; i < random.Next(decorators_count_min, decorators_count_max); i++)
+        for (int i = 1; i <= random.Next(decorators_count_min, decorators_count_max); i++)
         {
             result = factory.pickRandomDecorator(result);
         }
